@@ -1,4 +1,4 @@
-export enum AuthConstants {
-  Token = "BearerToken",
-  Authorization = "Authorization",
+export enum Auth {
+  Token = "BEARER_TOKEN",
+  Authorization = "AUTHORIZATION",
 }
