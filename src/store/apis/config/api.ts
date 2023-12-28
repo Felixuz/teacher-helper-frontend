@@ -11,7 +11,7 @@ export const baseQuery = (url: string = ""): TBaseQuery =>
         const token = localStorage.getItem(AuthConstants.Token);
         const authorization = headers.get(AuthConstants.Authorization);
         if (token && authorization === null) {
-          headers.set(AuthConstants.Authorization, `Bearer ${token}`);
+          headers.set(AuthConstants.Authorization, `Bearer Bearer ${token}`);
         }
       } catch (e) {
         // console.error(e);
