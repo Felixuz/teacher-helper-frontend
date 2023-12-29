@@ -1,11 +1,11 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Routes } from "./constants";
-import { Home, homeLoader } from "./routes";
+import { HomeRoute, homeLoader, LoginRoute } from "./routes";
 
 const router = createBrowserRouter([
-  { path: Routes.Home, element: <Home />, loader: homeLoader },
+  { path: Routes.Home, element: <HomeRoute />, loader: homeLoader },
   { path: Routes.Register, element: <div>Register</div> },
-  { path: Routes.Login, element: <div>Login</div> },
+  { path: Routes.Login, element: <LoginRoute /> },
   { path: "*", element: <div>Not Found</div> },
 ]);
 

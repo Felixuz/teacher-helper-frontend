@@ -1,5 +1,5 @@
 export enum ILanguages {
-  KR = "kril",
+  KRILL = "krill",
   UZ = "uz",
   RU = "ru",
   EN = "en",

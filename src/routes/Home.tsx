@@ -9,6 +9,6 @@ export const homeLoader = async () => {
   return null;
 };
 
-export const Home = () => {
+export const HomeRoute = () => {
   return <>Home</>;
 };
