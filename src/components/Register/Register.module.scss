@@ -1,5 +1,5 @@
 @import "../../styles/colors";
-.login {
+.register {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -39,21 +39,11 @@
           font-weight: 600;
         }
       }
-      .login-input {
+      .register-input {
         margin-bottom: 1.6rem;
       }
       .password-input {
-        margin-bottom: 6px;
-      }
-      .forgot-password {
         margin-bottom: 3.2rem;
-        a {
-          color: #2e85ff;
-          font-size: 1.4rem;
-          font-weight: 400;
-          line-height: 2rem;
-          text-decoration-line: underline;
-        }
       }
     }
 

@@ -8,7 +8,7 @@ import { ILanguages } from "../constants";
 
 i18n.use(initReactI18next).init({
   debug: true,
-  fallbackLng: "uz",
+  fallbackLng: ILanguages.EN,
   interpolation: {
     escapeValue: true,
   },
